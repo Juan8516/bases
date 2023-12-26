@@ -5,10 +5,9 @@ import { Component } from '@angular/core';
   template: `
     <h3>Counter: {{ counter }}</h3>
 
-    <button (click)="increaseBy(+1)">+</button>
-    <button (click)="resetCounter()">Reset</button>
     <button (click)="increaseBy(-1)">-</button>
-
+    <button (click)="resetCounter()">Reset</button>
+    <button (click)="increaseBy(+1)">+</button>
   `
 })
 
