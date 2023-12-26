@@ -1,6 +1,7 @@
 {
     "conventionalCommits.scopes": [
         "create project",
-        "funtionality"
+        "funtionality",
+        "Create File"
     ]
 }
