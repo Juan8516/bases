@@ -6,8 +6,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        fontEncabezado: ['VT323, monospace'],
-      }
+        fontEncabezado: ['Roboto, sans-serif'],
+      },
+
+      fontFamily: {
+        fontContador: ['VT323, monospace'],
+      },
     },
   },
   plugins: [],
