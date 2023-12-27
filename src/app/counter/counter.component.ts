@@ -10,8 +10,16 @@ import { Component } from '@angular/core';
         class="bg-[#9AD0C2] hover:bg-[#2D9596] text-white font-bold py-6 px-8 rounded"
         (click)="increaseBy(-1)"
       >-</button>
-      <button class="bg-[#2D9596] hover:bg-[#9AD0C2] text-white font-bold py-6 px-12 rounded"(click)="resetCounter()">Reset</button>
-      <button class="bg-[#9AD0C2] hover:bg-[#2D9596] text-white font-bold py-6 px-8 rounded" (click)="increaseBy(+1)">+</button>
+
+      <button
+        class="bg-[#2D9596] hover:bg-[#9AD0C2] text-white font-bold py-6 px-12 rounded"
+        (click)="resetCounter()">
+      Reset</button>
+
+      <button
+        class="bg-[#9AD0C2] hover:bg-[#2D9596] text-white font-bold py-6 px-8 rounded"
+        (click)="increaseBy(+1)">
+      +</button>
     </div>
   `
 })
