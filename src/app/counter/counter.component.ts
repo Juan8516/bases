@@ -3,11 +3,16 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-counter',
   template: `
-    <h3>Counter: {{ counter }}</h3>
+    <h3 class="font-fontEncabezado">Counter: {{ counter }}</h3>
 
-    <button (click)="increaseBy(-1)">-</button>
-    <button (click)="resetCounter()">Reset</button>
-    <button (click)="increaseBy(+1)">+</button>
+    <div class="flex justify-evenly mt-4 mb-4">
+      <button
+        class="bg-[#9AD0C2] hover:bg-[#2D9596] text-white font-bold py-6 px-8 rounded"
+        (click)="increaseBy(-1)"
+      >-</button>
+      <button class="bg-[#2D9596] hover:bg-[#9AD0C2] text-white font-bold py-6 px-12 rounded"(click)="resetCounter()">Reset</button>
+      <button class="bg-[#9AD0C2] hover:bg-[#2D9596] text-white font-bold py-6 px-8 rounded" (click)="increaseBy(+1)">+</button>
+    </div>
   `
 })
 
